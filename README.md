@@ -9,7 +9,7 @@ myapi/
 
 │   ├── manifests/ 
 
-│   │   └── AndroidManifest.xml        # Archivo de configuración principal de la app 
+│   │   └── AndroidManifest.xml                    # Archivo de configuración principal de la app 
 
 │   │ 
 
@@ -17,29 +17,29 @@ myapi/
 
 │   │   └── com/example/myapi/ 
 
-│   │       ├── ApiService.kt          # Interfaz de Retrofit para definir los endpoints de la API 
+│   │       ├── ApiService.kt                      # Interfaz de Retrofit para definir los endpoints de la API 
 
-│   │       ├── Item.kt                # Data class para mapear los datos (modelo) 
+│   │       ├── Item.kt                            # Data class para mapear los datos (modelo) 
 
-│   │       ├── ItemAdapter.kt         # Adaptador para mostrar los items en un RecyclerView 
+│   │       ├── ItemAdapter.kt                     # Adaptador para mostrar los items en un RecyclerView 
 
-│   │       ├── MainActivity.kt        # Actividad principal de la aplicación 
+│   │       ├── MainActivity.kt                    # Actividad principal de la aplicación 
 
-│   │       └── RetrofitClient.kt      # Configuración del cliente Retrofit 
+│   │       └── RetrofitClient.kt                  # Configuración del cliente Retrofit 
 
 │   │ 
 
 │   ├── res/ 
 
-│   │   ├── drawable/                  # Recursos gráficos (imágenes, shapes, íconos personalizados) 
+│   │   ├── drawable/                             # Recursos gráficos (imágenes, shapes, íconos personalizados) 
 
 │   │   ├── layout/ 
 
-│   │   │   ├── activity_main.xml      # Layout de la pantalla principal 
+│   │   │   ├── activity_main.xml                 # Layout de la pantalla principal 
 
-│   │   │   └── item_layout.xml        # Layout para cada item del RecyclerView 
+│   │   │   └── item_layout.xml                   # Layout para cada item del RecyclerView 
 
-│   │   ├── mipmap/                    # Iconos de la aplicación (launcher) 
+│   │   ├── mipmap/                               # Iconos de la aplicación (launcher) 
 
 │   │   └── values/ 
 
